@@ -1,102 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixel Hoo</title> <!-- Your Title Here -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <style>
-        body 
-        {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://github.com/kyro-renn/links/blob/main/martin-martz-q9A0A3ij4yM-unsplash.jpg?raw=true'); /* Your background image */
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: #fff;
-        }
-        
-        .container 
-        {
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
-            padding: 40px;
-            border-radius: 15px;
-            text-align: center;
-            max-width: 600px;
-            width: 100%;
-        }
-        
-        h1 
-        {
-            font-size: 36px;
-            margin-bottom: 30px;
-        }
-        
-        .logo 
-        {
-            width: 120px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        
-        .link 
-        {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 15px;
-            margin: 10px 0;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-        
-        .link i 
-        {
-            margin-right: 10px;
-            font-size: 20px;
-        }
-        
-        .link:hover 
-        {
-            background-color: #45a049;
-        }
-        
-        .link:active 
-        {
-            background-color: #388e3c;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pixel Hoo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://github.com/kyro-renn/links/blob/main/martin-martz-q9A0A3ij4yM-unsplash.jpg?raw=true');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px 20px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 350px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 20px 0 30px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 15px;
+      display: block;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      padding: 12px 18px;
+      margin: 10px 0;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s, color 0.3s;
+      cursor: pointer;
+    }
+
+    .link img {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    .link:hover {
+      background-color: #000;
+      color: #4caf50;
+      border-color: #4caf50;
+    }
+
+    .link:active {
+      background-color: #222;
+      color: #388e3c;
+      border-color: #388e3c;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="images/Hoo New Logo" alt="Logo" class="logo"> <!-- Replace with your logo URL -->
-        <h1>Pixel Hoo</h1>
-         
-        <a href="https://vgen.co/pixelhoo" class="link" target="_blank">
-            <img src="images/Vgen.webp" width="24" height="24"></i> Commissions / Custom Orders
-        </a>
-        
-        <a href="https://vgen.co/pixelhoo/shop" class="link" target="_blank">
-            <img src="images/Vgen.webp" width="24" height="24"></i> Shop | Wallpapers
-        </a>
-        
-        <a href="https://vgen.co/pixelhoo/portfolio" class="link" target="_blank">
-            <img src="images/Vgen.webp" width="24" height="24"></i> Portfolio
-        </a>
-        
-        <a href="https://www.patreon.com/c/PixelHoo" class="link" target="_blank">
-            <i class="fab fa-patreon"></i> Patreon (Support)
-        </a>
-        
-    </div>
+  <div class="container">
+    <img src="images/Hoo New Logo.png" alt="Logo" class="logo" />
+
+    <h1>Pixel Hoo</h1>
+
+    <a href="https://vgen.co/pixelhoo" class="link" target="_blank" rel="noopener noreferrer">
+      <img src="images/Vgen.webp" alt="VGen" /> Commissions / Custom Orders
+    </a>
+
+    <a href="https://vgen.co/pixelhoo/shop" class="link" target="_blank" rel="noopener noreferrer">
+      <img src="images/Vgen.webp" alt="VGen" /> Shop | Wallpapers
+    </a>
+
+    <a href="https://vgen.co/pixelhoo/portfolio" class="link" target="_blank" rel="noopener noreferrer">
+      <img src="images/Vgen.webp" alt="VGen" /> Portfolio
+    </a>
+
+    <a href="https://www.patreon.com/c/PixelHoo" class="link" target="_blank" rel="noopener noreferrer">
+      <img src="images/patreon-logo.png" alt="Patreon" /> Patreon (Support)
+    </a>
+
+    <a href="https://ko-fi.com/pixelhoo" class="link" target="_blank" rel="noopener noreferrer">
+      <img src="images/kofi-logo.webp" alt="Ko-Fi" /> Ko-Fi (Support)
+    </a>
+
+    <a href="https://www.youtube.com/channel/yourchannel" class="link" target="_blank" rel="noopener noreferrer">
+      <img src="images/youtube-logo.png" alt="YouTube" /> YouTube Tutorials
+    </a>
+  </div>
 </body>
 </html>
